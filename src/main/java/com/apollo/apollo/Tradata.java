@@ -20,6 +20,7 @@ public class Tradata {
      */
     public static void main(String[] args) throws MalformedURLException, IOException, InterruptedException { // begin the main method #
 
+     
         OrderBook book = OrderBook.getOrderBookObject(); // Create an OrderBookObject
         System.out.println(book); // *Print a summary of the OrderBook object
         
